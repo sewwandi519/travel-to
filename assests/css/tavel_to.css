@@ -26,3 +26,44 @@ p{
 ul>li{
     margin-left: 40%;
 }
+/*historical and place to button*/
+.btn{
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+/*map*/
+.map{
+    margin-left: 32%;
+    margin-right: 29%;
+    border-radius: 10px;
+    margin-bottom: 3%;
+}
+h2{
+    margin-left: 32%;
+    margin-bottom: 2%;
+    font-family: "Playfair Display", serif;
+}
+@media(max-width:1000px)
+{
+.map{
+    margin-left: 20%;
+}
+h2{
+    margin-left: 20%;
+}}
+@media(max-width:900px)
+{
+.map{
+    margin-left: 10%;
+}
+h2{
+    margin-left: 10%;
+}}
+@media(max-width:700px)
+{
+.map{
+    margin-left: 5%;
+}
+h2{
+    margin-left: 5%;
+}}
