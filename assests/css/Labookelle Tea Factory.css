@@ -1,0 +1,89 @@
+/*link google font*/
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lobster&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=REM:ital,wght@0,100..900;1,100..900&display=swap');
+/*button*/
+.btn{
+    margin-left: 4%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+/*main title*/
+h1{
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    margin-bottom: 2%;
+    margin-top: 10%;
+}
+/* paragraph */
+p{
+    letter-spacing: 10%;
+    text-align: left;
+}
+/* image */
+.image> img{
+    height: 100%;
+    width: 100%;
+    margin-top: 5%;
+}
+.activity>h2{
+    font-family: "Playfair Display", serif;
+    padding-top: 3%;
+    text-align: left;
+    font-size: 25px;
+    font-style: italic;
+}
+/* image */
+.image1> img{
+    height: 50%;
+    width: 50%;
+    margin-top: 5%;
+}
+.item>p{
+    text-align: left;
+    margin-top: 10%;
+}
+/* image2 */
+.image2> img{
+    height: 80%;
+    width: 70%;
+    margin-top: 5%;
+}
+/* .h3{ */
+    /* margin-left: 32%; */
+    /* margin-bottom: 2%;
+    padding-top: 5%;
+    font-family: "Playfair Display", serif;
+}  */
+/*map*/
+.map{
+    /* margin-left: 32%; */
+    margin-right: 29%;
+    border-radius: 10px;
+    margin-bottom: 3%;
+}
+ iframe{
+    margin-left: 45%;
+} 
+h2{
+    /* margin-left: 32%; */
+    /* margin-bottom: 2%; */
+    padding-top: 3%;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+}
+@media(max-width:600px)
+{
+iframe{
+    margin-left: 20%;
+}
+h2{
+    margin-left: 20%;
+}}
+.para>p{
+    letter-spacing: 10%;
+    text-align: center;
+}
+footer{
+    background-color: aqua;
+    height: 8%;
+    width: 100%;
+}
