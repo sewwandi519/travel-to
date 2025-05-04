@@ -17,3 +17,9 @@ h1{
     margin-left: 10%;
     margin-right: 10%;
 }
+/* footer */
+footer{
+    background-color: aqua;
+    height: 3%;
+    width: 100%;
+}

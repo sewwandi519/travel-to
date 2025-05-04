@@ -1,5 +1,11 @@
 /*link google font*/
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lobster&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=REM:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 /*button*/
 .btn{
     margin-left: 4%;
@@ -17,29 +23,34 @@ h1{
 p{
     letter-spacing: 10%;
     text-align: left;
+    padding-right: 10%;
 }
 /* image */
 .image> img{
-    height: 100%;
-    width: 100%;
+    height: 80%;
+    width: 80%;
     margin-top: 5%;
+    margin-left: 10%;
 }
-.activity>h2{
+.activity>h3{
     font-family: "Playfair Display", serif;
     padding-top: 3%;
     text-align: left;
     font-size: 25px;
     font-style: italic;
+    margin-left: 10%;
 }
 /* image */
 .image1> img{
     height: 50%;
     width: 50%;
     margin-top: 5%;
+    margin-left: 20%;
 }
 .item>p{
     text-align: left;
     margin-top: 10%;
+    margin-right: 30%;
 }
 /* image2 */
 .image2> img{
@@ -61,7 +72,7 @@ p{
     margin-bottom: 3%;
 }
  iframe{
-    margin-left: 45%;
+    margin-left: 55%;
 } 
 h2{
     /* margin-left: 32%; */
@@ -79,46 +90,7 @@ h2{
     margin-left: 20%;
 }}
 
-/* @media(max-width:1000px)
-{
-.map{
-    margin-right: 20%;
-}
-h2{
-    margin-right: 20%;
-}}
-@media(max-width:900px)
-{
-.map{
-    margin-right: 10%;
-}
-h2{
-    margin-right: 10%;
-}}
-@media(max-width:700px)
-{
-.map{
-    margin-right: 5%;
-}
-h2{
-    margin-right: 5%;
-}}
-@media(max-width:600px)
-{
-.map{
-    margin-left: 5%;
-}
-h2{
-    margin-left: 5%;
-}}
-@media(max-width:500px)
-{
-.map{
-    margin-left: 5%;
-}
-h2{
-    margin-left: 5%;
-}} */
+
 .para>p{
     letter-spacing: 10%;
     text-align: center;
